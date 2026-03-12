@@ -921,20 +921,20 @@ CLAUDE.md                     # Document aggregator subsystem
 | Vatican News | RSS | `https://www.vaticannews.va/en.rss.xml` | EN |
 | Catholic News Agency (CNA) | RSS | `https://www.catholicnewsagency.com/feed` | EN |
 | EWTN / National Catholic Register | RSS | `https://ncregister.com/feeds/general-news.xml` | EN |
-| Our Sunday Visitor (OSV News) | RSS | `https://www.osv.com/RSS.aspx` | EN |
+| Our Sunday Visitor (OSV News) | RSS | `https://www.osvnews.com/feed/` | EN |
 | America Magazine | RSS | `https://www.americamagazine.org/feed` | EN |
 | National Catholic Reporter | RSS | `https://www.ncronline.org/rss.xml` | EN |
 | The Pillar | RSS | `https://www.pillarcatholic.com/feed` | EN |
-| Catholic World News | RSS | `https://feeds.feedburner.com/CatholicWorldNewsFeatureStories` | EN |
-| Catholic Online | RSS | `https://www.catholic.org/xml/` | EN |
+| Catholic World News | RSS | `https://www.catholicculture.org/news/headlines/index.cfm?rss=1` | EN |
+| Catholic Online | RSS | `https://www.catholic.org/xml/rss/news.xml` | EN |
 | Crux | RSS | `https://cruxnow.com/feed` | EN |
-| ACI Prensa | RSS | `https://www.aciprensa.com/rss/news` | ES |
-| ACI Digital | RSS | `https://www.acidigital.com/rss/news` | PT |
+| ACI Prensa | RSS | `http://feeds.feedburner.com/noticiasaci` | ES |
+| ACI Digital | RSS | `https://www.acidigital.com/rss/rss.php` | PT |
 | ZENIT | RSS | `https://zenit.org/feed/` | EN |
 | Catholic Herald | RSS | `https://catholicherald.co.uk/feed/` | EN |
 | Aleteia | RSS | `https://aleteia.org/feed/` | EN |
-| Holy See Documents | Vatican | `https://www.vatican.va/content/vatican/en.html` | EN |
-| USCCB News | RSS | `https://www.usccb.org/subscribe/rss` | EN |
+| Holy See Documents | RSS | `https://press.vatican.va/content/salastampa/it/bollettino.rss.xml` | IT/EN |
+| USCCB News | RSS | `https://www.usccb.org/news/feed` | EN |
 
 ### YouTube Channels
 
@@ -942,22 +942,22 @@ CLAUDE.md                     # Document aggregator subsystem
 |--------|------|-----|----------|
 | Bishop Robert Barron | YouTube | `https://www.youtube.com/@BishopBarron` | EN |
 | Ascension Presents (Fr. Mike Schmitz) | YouTube | `https://www.youtube.com/@AscensionPresents` | EN |
-| Catholic Answers | YouTube | `https://www.youtube.com/@catholiccom` | EN |
-| EWTN | YouTube | `https://www.youtube.com/@ABORREZNOV` | EN |
-| Vatican News | YouTube | `https://www.youtube.com/@VaticanNews` | EN |
+| Catholic Answers | YouTube | `https://www.youtube.com/@Catholic-com` | EN |
+| EWTN | YouTube | `https://www.youtube.com/@EWTN` | EN |
+| Vatican News | YouTube | `https://www.youtube.com/@VaticanNewsEN` | EN |
 | Breaking in the Habit | YouTube | `https://www.youtube.com/@BreakingInTheHabit` | EN |
-| The Thomistic Institute | YouTube | `https://www.youtube.com/@TheThomisticInstitute` | EN |
+| The Thomistic Institute | YouTube | `https://www.youtube.com/@ThomisticInstitute` | EN |
 
 ### Podcasts
 
 | Source | Type | Feed URL | Language |
 |--------|------|----------|----------|
-| The Catholic Talk Show | Podcast | `https://feeds.buzzsprout.com/180009.rss` | EN |
-| Pints with Aquinas | Podcast | `https://feeds.buzzsprout.com/25546.rss` | EN |
-| Catholic Stuff You Should Know | Podcast | `https://catholicstuffpodcast.com/feed/podcast` | EN |
-| Godsplaining | Podcast | `https://feeds.soundcloud.com/users/soundcloud:users:267228498/sounds.rss` | EN |
-| The Pillar Podcast | Podcast | `https://www.pillarcatholic.com/feed/podcast` | EN |
-| Jimmy Akin's Mysterious World | Podcast | `https://sqpn.com/category/podcasts/mysterious-world/feed/` | EN |
+| The Catholic Talk Show | Podcast | `https://catholictalkshow.com/feed/podcast/` | EN |
+| Pints with Aquinas | Podcast | `https://pintswithaquinas.libsyn.com/rss` | EN |
+| Catholic Stuff You Should Know | Podcast | `https://catholicstuffpodcast.com/feed/` | EN |
+| Godsplaining | Podcast | `https://feeds.libsyn.com/241335/rss` | EN |
+| The Pillar Podcast | Podcast | `https://www.pillarcatholic.com/podcast/rss` | EN |
+| Jimmy Akin's Mysterious World | Podcast | `https://feeds.sqpn.com/mysterious` | EN |
 
 ### Academic & Scientific
 
@@ -970,10 +970,10 @@ CLAUDE.md                     # Document aggregator subsystem
 | Georgetown University — News | Web | `https://www.georgetown.edu/news/` | EN | |
 | Boston College — News | RSS | `https://www.bc.edu/content/bc-web/bcnews/rss.xml` | EN | |
 | Pontifical Gregorian University | Web | `https://www.unigre.it/en/news/` | EN | |
-| Catholic University of the Sacred Heart (Milan) | Web | `https://www.unicatt.it/news` | IT | |
+| Catholic University of the Sacred Heart (Milan) | Web | `https://www.unicatt.it/news.html` | IT | |
 | Pontifical Academy for Life | Web | `https://www.academyforlife.va/content/pav/en/news.html` | EN | AI ethics, bioethics & technology |
 | Pontifical Academy of Sciences | Web | `https://www.pas.va/en/news.html` | EN | Science–faith dialogue |
-| Vatican Dicastery for Communication | Web | `https://www.dicasteriumcommunication.va/en.html` | EN | Digital communication policy |
+| Vatican Dicastery for Communication | Web | `https://www.comunicazione.va/en.html` | EN | Digital communication policy |
 | McGrath Institute for Church Life (Notre Dame) | RSS | `https://mcgrath.nd.edu/feed/` | EN | Church & technology intersection |
 
 Sources are stored in the `sources` table and can be added/removed at any time without code changes.
