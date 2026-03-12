@@ -920,21 +920,21 @@ CLAUDE.md                     # Document aggregator subsystem
 |--------|------|-----|----------|
 | Vatican News | RSS | `https://www.vaticannews.va/en.rss.xml` | EN |
 | Catholic News Agency (CNA) | RSS | `https://www.catholicnewsagency.com/feed` | EN |
-| EWTN / National Catholic Register | RSS | `https://ncregister.com/feeds/general-news.xml` | EN |
+| EWTN / National Catholic Register | RSS | `https://www.ncregister.com/feeds/general-news.xml` | EN |
 | Our Sunday Visitor (OSV News) | RSS | `https://www.osvnews.com/feed/` | EN |
 | America Magazine | RSS | `https://www.americamagazine.org/feed` | EN |
 | National Catholic Reporter | RSS | `https://www.ncronline.org/rss.xml` | EN |
 | The Pillar | RSS | `https://www.pillarcatholic.com/feed` | EN |
 | Catholic World News | RSS | `https://www.catholicculture.org/news/headlines/index.cfm?rss=1` | EN |
-| Catholic Online | RSS | `https://www.catholic.org/xml/rss/news.xml` | EN |
+| Catholic Online | RSS | `https://www.catholic.org/xml/rss_news.php` | EN |
 | Crux | RSS | `https://cruxnow.com/feed` | EN |
-| ACI Prensa | RSS | `http://feeds.feedburner.com/noticiasaci` | ES |
+| ACI Prensa | RSS | `https://www.aciprensa.com/rss/rss.php` | ES |
 | ACI Digital | RSS | `https://www.acidigital.com/rss/rss.php` | PT |
 | ZENIT | RSS | `https://zenit.org/feed/` | EN |
-| Catholic Herald | RSS | `https://catholicherald.co.uk/feed/` | EN |
+| Catholic Herald | RSS | `https://catholicherald.co.uk/?feed=rss2` | EN |
 | Aleteia | RSS | `https://aleteia.org/feed/` | EN |
-| Holy See Documents | RSS | `https://press.vatican.va/content/salastampa/it/bollettino.rss.xml` | IT/EN |
-| USCCB News | RSS | `https://www.usccb.org/news/feed` | EN |
+| Holy See Press Office | Web | `https://press.vatican.va/content/salastampa/it/bollettino.html` | IT/EN |
+| USCCB News | RSS | `https://www.usccb.org/news/rss` | EN |
 
 ### YouTube Channels
 
@@ -952,11 +952,11 @@ CLAUDE.md                     # Document aggregator subsystem
 
 | Source | Type | Feed URL | Language |
 |--------|------|----------|----------|
-| The Catholic Talk Show | Podcast | `https://catholictalkshow.com/feed/podcast/` | EN |
+| The Catholic Talk Show | Podcast | `https://catholictalkshow.com/feed/` | EN |
 | Pints with Aquinas | Podcast | `https://pintswithaquinas.libsyn.com/rss` | EN |
-| Catholic Stuff You Should Know | Podcast | `https://catholicstuffpodcast.com/feed/` | EN |
-| Godsplaining | Podcast | `https://feeds.libsyn.com/241335/rss` | EN |
-| The Pillar Podcast | Podcast | `https://www.pillarcatholic.com/podcast/rss` | EN |
+| Catholic Stuff You Should Know | Podcast | `https://catholicstuff.libsyn.com/rss` | EN |
+| Godsplaining | Podcast | `https://godsplaining.podbean.com/feed.xml` | EN |
+| The Pillar Podcast | Podcast | `https://www.pillarcatholic.com/feed` | EN |
 | Jimmy Akin's Mysterious World | Podcast | `https://feeds.sqpn.com/mysterious` | EN |
 
 ### Academic & Scientific
@@ -966,14 +966,14 @@ CLAUDE.md                     # Document aggregator subsystem
 | arXiv (AI Ethics) | arXiv | `https://export.arxiv.org/api/query` | EN | cs.AI + ethics/religion queries |
 | arXiv (Computers & Society) | arXiv | `https://export.arxiv.org/api/query` | EN | cs.CY category |
 | Catholic University of America — News | RSS | `https://www.catholic.edu/news/rss.xml` | EN | |
-| University of Notre Dame — News | RSS | `https://news.nd.edu/feed/` | EN | |
-| Georgetown University — News | Web | `https://www.georgetown.edu/news/` | EN | |
-| Boston College — News | RSS | `https://www.bc.edu/content/bc-web/bcnews/rss.xml` | EN | |
+| University of Notre Dame — News | RSS | `https://news.nd.edu/news.atom` | EN | |
+| Georgetown University — News | Web | `https://www.georgetown.edu/news/feed/` | EN | |
+| Boston College — News | RSS | `https://www.bc.edu/bc-web/bcnews.rss.xml` | EN | |
 | Pontifical Gregorian University | Web | `https://www.unigre.it/en/news/` | EN | |
-| Catholic University of the Sacred Heart (Milan) | Web | `https://www.unicatt.it/news.html` | IT | |
+| Catholic University of the Sacred Heart (Milan) | RSS | `https://www.unicatt.it/news.rss` | IT | |
 | Pontifical Academy for Life | Web | `https://www.academyforlife.va/content/pav/en/news.html` | EN | AI ethics, bioethics & technology |
 | Pontifical Academy of Sciences | Web | `https://www.pas.va/en/news.html` | EN | Science–faith dialogue |
 | Vatican Dicastery for Communication | Web | `https://www.comunicazione.va/en.html` | EN | Digital communication policy |
-| McGrath Institute for Church Life (Notre Dame) | RSS | `https://mcgrath.nd.edu/feed/` | EN | Church & technology intersection |
+| McGrath Institute for Church Life (Notre Dame) | RSS | `https://churchlifejournal.nd.edu/articles.atom` | EN | Church & technology intersection |
 
 Sources are stored in the `sources` table and can be added/removed at any time without code changes.
